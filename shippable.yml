@@ -5,6 +5,11 @@ language: node_js
 node_js:
   - "0.10"
 
+addons:
+  firefox: "28.0"
+  selenium :"2.45"
+  
+
 services:
   - selenium
 
